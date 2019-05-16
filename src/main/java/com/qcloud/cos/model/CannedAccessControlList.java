@@ -40,6 +40,11 @@ public enum CannedAccessControlList {
      * </p>
      */
     PublicReadWrite("public-read-write");    
+
+    /**
+     * inherit from bucket permission
+     */
+    Default("default");  
     
     /** The Qcloud COS x-cos-acl header value representing the canned acl */
     private final String cannedAclHeader;
